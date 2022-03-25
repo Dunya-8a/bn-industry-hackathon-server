@@ -2,15 +2,15 @@ module.exports = [
 	{
 		id: 1,
 		company_name: "BrainStation Buildings Inc",
-		title: "3 tonnes of high-quality steel",
+		title: "1.5 tonnes of high-quality steel",
 		category: "steel",
-		quantity: "3 t",
+		quantity: "1.5 t",
 		condition: "new",
 		price: "£500/t",
 		location: "55-57 Rivington Street, EC2A 3QA, London",
 		phone_no: "0123-456-7890",
 		photo: "https://unsplash.com/photos/lqx_D7xIZ2o",
-		data_added: "1647702166",
+		date_added: "2022-03-25 15:02:46",
 	},
 	{
 		id: 2,
@@ -23,7 +23,7 @@ module.exports = [
 		location: "321 Dibbert Estate, WC1 U89, London",
 		phone_no: "0812372104",
 		photo: "https://unsplash.com/photos/x3PjWTt6JKo",
-		timestamp: "1647700236",
+		date_added: "2022-03-25 10:12:55",
 	},
 	{
 		id: 3,
@@ -37,7 +37,7 @@ module.exports = [
 		phone_no: "0227391023",
 		photo:
 			"http://file2.okorder.com/prodalbum/2014/11/18/e848ed16ab4cd35c72e42c24d7eb9979.jpg",
-		timestamp: "1647999366",
+		date_added: "2022-03-24 16:11:30",
 	},
 	{
 		id: 4,
@@ -50,7 +50,7 @@ module.exports = [
 		location: "32 Eleonore Walks, SW9 7HU, Essex",
 		phone_no: "0166123893",
 		photo: "https://dailytimes.com.pk/assets/uploads/2018/05/05/Cement.jpg",
-		timestamp: "1646899666",
+		date_added: "2022-03-24 12:08:10",
 	},
 	{
 		id: 5,
@@ -63,6 +63,6 @@ module.exports = [
 		location: "456 Granville St, E3 5GE, London",
 		phone_no: "04482192883",
 		photo: "https://unsplash.com/photos/S32zqWHnYwk",
-		timestamp: "1647499666",
+		date_added: "2022-03-23 09:02:45",
 	},
 ];
