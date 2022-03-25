@@ -18,6 +18,8 @@
 	"homepage": "https://github.com/Dunya-8a/bn-industry-hackathon-server#readme",
 	"keywords": [],
 	"dependencies": {
-		"express": "^4.17.3"
+		"express": "^4.17.3",
+		"knex": "^1.0.4",
+		"mysql": "^2.18.1"
 	}
 }
