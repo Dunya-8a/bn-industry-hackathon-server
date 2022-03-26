@@ -18,8 +18,7 @@ exports.addInventory = (req, res) => {
 		!req.body.condition ||
 		!req.body.price ||
 		!req.body.location ||
-		!req.body.phone_no ||
-		!req.body.date_added
+		!req.body.phone_no
 	) {
 		return res
 			.status(400)
@@ -29,6 +28,7 @@ exports.addInventory = (req, res) => {
 	knex("inventory")
 		.insert(req.body)
 		.then((data) => {
+			console.log(data);
 			// For POST requests we need to respond with 201 and the location of the newly created record
 			const newInventoryURL = `/${data[0]}`;
 			res.status(201).location(newInventoryURL).send(newInventoryURL);
